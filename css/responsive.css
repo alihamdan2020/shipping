@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+ #myCarousel
+ {
+	 display:none;
+ }
+ 
+ #logo img
+ {
+	 width:50%;
+	 height:40%;
+ }
+ 
+
+  body
+  {
+	 background-color:#4da8da; 
+  }
+  
+  .container-fluid.myfooter
+  {
+	  text-align:center;
+	  background-color:#ccc !important;
+  }
+ 
+
+ nav.navbar 
+{
+
+font-size:1em;
+background:transparent;
+border:0px !important;
+position:absolute;
+top:0;
+left:0% !important;
+}
+ 
+  nav.navbar ul.nav li ul.dropdown-menu li a
+  {
+	  color:white !important;
+  }
+  
+  nav.navbar ul.nav li ul.dropdown-menu li a:hover
+  {
+	  color:orange !important;
+  }
+   
+}
+
+ 

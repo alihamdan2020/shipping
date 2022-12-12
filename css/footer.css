@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ 
+
+ .container-fluid.myfooter {
+     overflow: hidden;
+     
+     background: #26272b;
+     colors: #627482 !important;
+	 color: orange !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+	 color:white;
+ }
+ 
+ .mx-2
+ {
+	 display:block;
+	 margin-bottom:1em;
+ }
+ #workinghours ul li .day
+ {
+	
+	width:30%;
+	display:inline-block; 
+ }
+ 
+ 
+  footer div#workinghours::befores
+ 
+ {
+	content: "\f055";
+     font-family: FontAwesome;
+     left:-50;
+     position:absolute;
+     top:20;
+	 font-size:3.5em;
+	 color:red;
+ }
+ 
+ footer h1,footer h2,footer h3, footer h4,footer h5,footer h6
+ {
+	 color:whitesmoke !important;
+ }
